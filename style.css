@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    border:border-box;
+}
+.container{
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    align-items: baseline;
+    height: 50px;
+    
+}
+.top-nav {
+    height: 60px;
+    background-color:#ffff;
+    padding-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+.heading{
+    padding-right: 115px;
+}
+ ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+li{
+    padding: 1rem;
+}
+.mag{
+    align-items: baseline;
+    padding-top: 20px;
+}
+    
+#p1{
+    justify-content: center;
+    align-items: baseline;
+    font-size: 50px;
+}
+.main-nav{
+    background-image: url(navimg.png);
+    height: 160px;
+
+}
+.headerr{
+    width: 345.5px;
+    height: 85;
+}
+/*.logo{
+    background-image: url(logo.png);
+    height: 89.59px;
+    width: 370px;
+    background-repeat: no-repeat;
+}
+*/
+.headerr img{
+    width: 220px;
+    height: 80px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.nav-items {
+    padding-left: 500px;
+   
+}
+.nav-items ul li{
+    color: #ffff;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.page-title{
+    background-color: #ffff;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.row1   {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 120px;
+
+}
+.page-title link{
+    position: relative;
+    text-align: left;
+}
+.page-title p{
+    color: #4f2170;
+
+}
+p{
+    font-family: "Calibri";
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.53px;
+}
+.page-title h1{
+    text-transform: uppercase;
+    font-family: "MDLZ BITE TYPE";
+    font-size: 60px;
+    font-weight: normal;
+    letter-spacing: 1.2px;
+    color: #4f2170;
+    margin-bottom: 20px;
+}
+.hero{
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    min-height: 575px;
+    height: 800px;
+}
+.column-cotainers1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*.rich-text{
+   
+}*/
+.container1{
+    font-size: 14px;
+}
+.col1{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.rich-text{
+    margin-top: -12px;
+    font-size: 48px ;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #287819 ;
+    margin-bottom: 35px ;
+    font-family: "Calibri";
+}
+em{
+    font-style: italic;
+}
+.quick{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.container1{
+    padding-left: 100px;
+}
+.container1 h2{
+    font-size: 60px;
+    font-family: "MDLZ BITE TYPE";
+    color: #4f2170;
+    margin-bottom: 80px;
+}
+.row-ites{
+    display: flex;
+}
+
+.quick .row-ites .box2 h2{
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #287819;
+    margin-bottom: 30px;
+}
+.quick .row.ites {
+    margin-bottom: 90px;
+    display: flex;
+    
+}
+.quick .p{
+    font-family: "Calibri";
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.53px;
+    color: #000000;
+}
+.quick .row-ites .box3 h2{
+    font-family: "Calibri";
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: normal;
+    color: #287819;
+    margin-bottom: 30px;
+}
+
+.aadditional .row .col12{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-right: 1px solid #666666;
+}
+a {
+    font-family: "Calibri";
+    font-size: 21px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 2.2px;
+    color: #4f2170;
+    justify-content: space-evenly;
+}
+.additional .col12 a {
+    letter-spacing: 4.2px;
+    margin-bottom: 35px;
+    display: block;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+footer::before{
+    background-image: url(footer.png);
+ 
+    background-repeat: no-repeat;
+    content: " ";
+    position: absolute;
+   
+  
+    width: 100%;
+    height: 60px;
+}
+.footer-last{
+    padding-top: 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+.container02{
+    background-color: #4f2170;
+    
+   margin-top: 2rem;
+    
+    
+}
+.sec{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: center;
+    font-family:"Calibri" ;
+    
+}
+.row-sec{
+    display: flex;
+    justify-content: center;
+}
+.sec ul h2{
+    margin-top: 4rem;
+    display: flex;
+    font-size: 30px;
+    color: #ffff;
+}
+.sec ul li{
+   
+    font-size: 1.5rem;
+    color: #ffff;
+    display: block;
+}
